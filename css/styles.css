@@ -44,6 +44,10 @@ body {
   color: var(--accent-color);
 }
 
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
 .contact-nav .link {
   color: var(--title-text-color);
 }
