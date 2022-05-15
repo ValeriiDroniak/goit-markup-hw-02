@@ -1,128 +1,117 @@
 :root {
-    --primary-bg-color: #ffffff;
-    --primary-text-color: #212121;
-    --title-text-color: #757575;
-    --accent-color: #2196f3;
-    --footer-bg-color: #2f303a;
-    --text-logo-color: #000000;
-    --primary-btn-color: #f5f4fa;
+  --primary-bg-color: #ffffff;
+  --primary-text-color: #212121;
+  --title-text-color: #757575;
+  --accent-color: #2196f3;
+  --footer-bg-color: #2f303a;
+  --text-logo-color: #000000;
+  --primary-btn-color: #f5f4fa;
 }
 
-
 body {
-    color: var(--primary-text-color);
-    background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
+  background-color: var(--primary-bg-color);
 }
 
 .list {
-    list-style: none;
+  list-style: none;
 }
 
 .decoration {
-    text-decoration: none;
+  text-decoration: none;
 }
-
-
 
 /* Логотип */
 
 .logo {
-    color: var(--text-logo-color);
+  color: var(--text-logo-color);
 }
 
 .logo > span {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }
-
-
 
 /* Навігація сайту */
 
 .site-nav .link {
-    color: var(--primary-text-color);
+  color: var(--primary-text-color);
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus,
 .contact-nav .link:hover,
 .contact-nav .link:focus {
-    color: var(--accent-color);
+  color: var(--accent-color);
 }
 
 .contact-nav .link {
-    color: var(--title-text-color);
+  color: var(--title-text-color);
 }
-
 
 /* Герой */
 
 .hero {
-    background-color: var(--footer-bg-color);
-    color: var(--primary-bg-color);
+  background-color: var(--footer-bg-color);
+  color: var(--primary-bg-color);
 }
-
-.btn {
-    background-color: var(--accent-color);
-    color: var(--primary-bg-color);
-    border: none;
-}
-
-.btn:hover,
-.btn:focus {
-    background-color: var(--primary-btn-color);
-    color: var(--primary-text-color);
-}
-
 
 /* Секції */
-.section{}
 
 .section-items .text {
-    color: var(--title-text-color);
+  color: var(--title-text-color);
 }
-
 
 /* Підвал */
 
 footer {
-    background-color: var(--footer-bg-color);
+  background-color: var(--footer-bg-color);
 }
 
 .logo.white {
-    color: var(--primary-bg-color);
+  color: var(--primary-bg-color);
 }
 
 .address-items .link {
-    color: rgba(255, 255, 255, 0.6);
-
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .address-items .link:hover,
 .address-items .link:focus {
-    color: var(--primary-bg-color);
+  color: var(--primary-bg-color);
 }
 
-
-/* Кнопки фільтру */
-
-.list-btn {
-    background-color: var(--primary-btn-color);
-    color: var(--primary-text-color);
-    border: none;
+/* Кнопка */
+.btn {
+  background-color: var(--accent-color);
+  color: var(--primary-bg-color);
+  border: none;
 }
 
-.list-btn:hover,
-.list-btn:focus {
-    background-color: var(--accent-color);
-    color: var(--primary-bg-color);
+.btn.primari {
+  background-color: var(--accent-color);
+  color: var(--primary-bg-color);
+}
+
+.btn.secondary,
+.btn.primari:hover,
+.btn.primari:focus {
+  background-color: var(--primary-btn-color);
+  color: var(--primary-text-color);
+}
+
+.btn.secondary:hover,
+.btn.secondary:focus,
+.btn.secondary:active {
+  background-color: var(--accent-color);
+  color: var(--primary-bg-color);
 }
 
 /* Роботи */
 
 .link > .title {
-    color: var(--primary-text-color);
+  color: var(--primary-text-color);
 }
 
 .link > .text {
-    color: var(--title-text-color);
+  color: var(--title-text-color);
 }
