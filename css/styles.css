@@ -126,7 +126,8 @@ footer {
   background-color: var(--footer-bg-color);
 }
 
-.logo.white {
+.logo.white,
+.address-items .link.physical {
   color: var(--primary-bg-color);
 }
 
@@ -143,7 +144,7 @@ footer {
 
 .address-items .link:hover,
 .address-items .link:focus {
-  color: var(--primary-bg-color);
+  color: var(--accent-color);
 }
 
 /* Кнопка */
